@@ -109,8 +109,6 @@ void Bank::new_personal_data(){
 	cout<<"\nTotal cash to deposit: ";
 	cin>>person[total].cash;
 	person[total].ID = total+1;
-//	cout<<"\nID for this acount is: "<<person[total].ID;
-//	//	person[total].ID = total; id yet to set.
 	total++;
 		
 }
